@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Palindrome</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.1/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean navbar-dark bg-dark">
+        <div class="container"><a class="navbar-brand" href="#"><i class="fa fa-pencil"></i>&nbsp;Palindromos.net</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto"></ul>
+        </div>
+        </div>
+    </nav>
+    <section id="main-container" class="register-photo" style="background-color: #212529;">
+        <div class="form-container">
+            <div class="image-holder"></div>
+            <form>
+                <h2 class="text-center">Es <strong>Palindromo?</strong></h2>
+                <p>Ingresa una palabra u oracion y descubre si es un palíndromo, aquí tienes algunos ejemplos para probar:</p>
+                <ul>
+                    <li>Anita lava la tina</li>
+                    <li>La ruta natural<br></li>
+                    <li>Ligar es ser ágil<br></li>
+                    <li>&nbsp;Edipo lo pide<br></li>
+                </ul>
+                <div class="form-group"><input id="word" minlength="2" class="form-control" type="text" name="word" placeholder="Escribe aquí:" required></div>
+                <div class="form-group"><button class="btn btn-outline-primary btn-block" type="submit" onclick="isPalindrome(word);">Ejecutar</button></div>
+            </form>
+        </div>
+    </section>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Omar Montoya © 2020</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/palindrome.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #6434c6;
+  border-color: #6434c6;
+}
+
+.btn-outline-primary {
+  color: #6434c6;
+  border-color: #6434c6;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #8959eb;
+  border-color: #6434c6;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(66,0,255,0.5);
+}
+
